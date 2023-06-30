@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "140f59cb-4998-4a42-8058-1e22686da65c",
+		"name": "2DS-API-HOSPITAL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26212243"
+	},
+	"item": [
+		{
+			"name": "inserir",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nomePaciente",
+							"value": "Ryan Lopes de Melo",
+							"type": "text"
+						},
+						{
+							"key": "telefonePaciente",
+							"value": "4321-1234",
+							"type": "text"
+						},
+						{
+							"key": "celularPaciente",
+							"value": "(11) 98765-4321",
+							"type": "text"
+						},
+						{
+							"key": "emailPaciente",
+							"value": "ryanmelo@hotmail.com",
+							"type": "text"
+						},
+						{
+							"key": "foto",
+							"type": "file",
+							"src": "/C:/Users/Henrique/Downloads/importante.html/happy-bear.png"
+						},
+						{
+							"key": "nomeResponsavel",
+							"value": "Valdira Nunes de Melo",
+							"type": "text"
+						},
+						{
+							"key": "telefoneResponsavel",
+							"value": "4567-7654",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/paciente/inserir",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"paciente",
+						"inserir"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
